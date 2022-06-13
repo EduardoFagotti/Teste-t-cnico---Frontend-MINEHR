@@ -1,11 +1,93 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #457b9d;
+}
+.topo{
+  width: 100%;
+  height: 91px;
+  background-color:#1d3557; ;
+}
+.topText{
+  display: flex;
+  justify-content:space-between;
+}
+h1{
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 28px;
+  color: #ffffff;
+  padding-left: 28px;
 }
 
-.container {
+p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding-left: 28px;
+color: #ffffff;
+margin-top: -18px;
+}
+
+button{
+  border-radius: 10px;
+  border: none;
+  background-color: #1d3557;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 44px;
+  margin-right: 24px;
+}
+
+.filIcon{
+  padding-right: 13.35px;
+  font-size: 11px;
+}
+
+.infoIcon{
+  font-size: 20px;
+  background-color: white;
+  border-radius: 100%;
+  color: #19D7AA;
+  padding-left: 15.19px;
+
+}
+
+h2{
+  text-align: start;
+  padding-bottom: 0;
+  margin-bottom: -20px;
+  font-size: 16px ;
+  font-family: 'Montserrat';
+  color: #5D405C;
+  display: flex;
+}
+
+.cardBar {
+  background-color: #FFFFFF;
   margin-top: 137px;
+  margin-bottom: 437px;
   margin-left: 28px;
+  margin-right: 28px;
+  padding-left: 39px;
+  padding-right: 38px;
+  border-radius: 10px;
   overflow: hidden;
-  width: 80%;
+  width: 90%;
   text-align: center;
+}
+.cardScatter {
+  background-color: #FFFFFF;
+  margin-top: 137px;
+  margin-bottom: 437px;
+  margin-left: 28px;
+  margin-right: 28px;
+  padding-left: 39px;
+  padding-right: 38px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 90%;
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: stretch;
 }

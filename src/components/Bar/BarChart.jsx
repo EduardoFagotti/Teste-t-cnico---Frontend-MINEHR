@@ -29,20 +29,11 @@ export const BarChart = () => {
         }
       },
       fill: {
-       colors: ['#f44336']
+       colors: ['#0073ff']
       },
       dataLabels:{
-       enabled: false
+       enabled: true
       },
-      title: {
-        text: 'Barras',
-       //  align: 'start',
-        margin: 20,
-        offsetY: 20,
-        style: {
-         fontSize: '25px'
-        }
-      }
    },
    series: [{
      data: [
@@ -60,12 +51,12 @@ export const BarChart = () => {
    }]
   }
   return (
-    <Chart
+    <Chart 
      options={barConfig.options}
      series={barConfig.series}
      type="bar"
-     height="359px"
-     width="680px"
+     height="290px"
+     width="500px"
     />
    )
 }
