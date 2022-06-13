@@ -1,8 +1,4 @@
-import React from 'react'
-import Chart from 'react-apexcharts';
-
-export const ScartterChart = () => {
- const Scartter = {
+export const ScatterChartConfig = {
   series: [{
     name: "SAMPLE A",
     data: [
@@ -68,14 +64,4 @@ export const ScartterChart = () => {
       tickAmount: 7
     }
    },
-  };
- return (
-  <Chart
-   options={ Scartter.options}
-   series={ Scartter.series}
-   type="scatter"
-  height="290px"
-   width="500px"
-  />
- )
 }

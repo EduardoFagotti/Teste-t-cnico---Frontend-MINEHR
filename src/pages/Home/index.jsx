@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { BarChart } from '../../components/Bar/BarChart';
-import { ScartterChart } from '../../components/Scartter/ScartterChart';
+import { ScatterChart } from '../../components/Scatter/ScatterChart';
 import { FaFilter } from 'react-icons/fa';
 import { RiInformationFill } from 'react-icons/ri';
 
@@ -35,7 +35,7 @@ return(
       Scatter
       <RiInformationFill className='infoIcon'/>
     </h2>
-       <ScartterChart />
+       <ScatterChart />
    </div>
 
  </div>

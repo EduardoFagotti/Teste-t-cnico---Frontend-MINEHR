@@ -63,12 +63,8 @@ h2{
 
 .cardBar {
   background-color: #FFFFFF;
-  margin-top: 137px;
-  margin-bottom: 437px;
-  margin-left: 28px;
-  margin-right: 28px;
-  padding-left: 39px;
-  padding-right: 38px;
+ margin: 35px 28px 437px 28px ;
+  padding: 0 38px;
   border-radius: 10px;
   overflow: hidden;
   width: 90%;
@@ -76,12 +72,8 @@ h2{
 }
 .cardScatter {
   background-color: #FFFFFF;
-  margin-top: 137px;
-  margin-bottom: 437px;
-  margin-left: 28px;
-  margin-right: 28px;
-  padding-left: 39px;
-  padding-right: 38px;
+  margin: 35px 28px 437px 28px ;
+  padding: 0 38px;
   border-radius: 10px;
   overflow: hidden;
   width: 90%;
